@@ -49,11 +49,8 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
+@layer components {
+  .glass-card {
+    @apply bg-card/40 backdrop-blur-xl border border-border shadow-2xl shadow-primary/5;
   }
 }
