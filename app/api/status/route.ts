@@ -224,7 +224,8 @@ export async function GET() {
       last_tool: lastTool,
       triggerPrompt: triggerPrompt,
       trails: trails,
-      plan: plan
+      plan: plan,
+      latestThought: trails.find(t => !t.isSubagent)?.thoughts[0]?.text || null
     });
     
   } catch (error: any) {

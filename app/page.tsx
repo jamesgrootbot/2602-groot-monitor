@@ -98,6 +98,9 @@ export default function Home() {
         if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
         const json = await res.json();
         setData(json);
+        if (json.latestThought && mainTask === 'Initializing...') {
+          setMainTask(json.latestThought.replace(/\*\*/g, '').split('\n')[0]);
+        }
         setError(null);
       } catch (e: any) {
         console.error('Pulse failed', e);
