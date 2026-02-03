@@ -171,6 +171,44 @@ export async function GET() {
       }
     }
 
+    // 3. Extract Plan from Projects or Thoughts
+    let plan: any[] = [];
+    try {
+      const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      for (const dir of projectDirs) {
+        const readmePath = path.join('projects', dir, 'README.md');
+        if (fs.existsSync(readmePath)) {
+          const content = await readFull(readmePath);
+          const taskSection = content.split(/##?\s+(?:Tasks|PLAN)/i)[1]?.split(/##/)[0];
+          if (taskSection) {
+            const lines = taskSection.split('\n');
+            plan = lines.map(line => {
+              const match = line.match(/^\s*-\s*\[(x| |\.|\*)\]\s*(.*)/i);
+              if (!match) return null;
+              const statusChar = match[1].toLowerCase();
+              const label = match[2].trim();
+              let status = 'pending';
+              if (statusChar === 'x') status = 'done';
+              else if (statusChar === '.' || statusChar === '*') status = 'running';
+              return { id: Math.random().toString(36).substr(2, 9), label, status };
+            }).filter(Boolean);
+            if (plan.length > 0) break;
+          }
+        }
+      }
+    } catch (e) {
+      console.error("Plan Extraction Failed:", e);
+    }
+
+    // Fallback: Default Plan
+    if (plan.length === 0) {
+      plan = [
+        { id: '1', label: 'Monitor Activity', status: trails.some(t => !t.isCompleted) ? 'running' : 'done' },
+        { id: '2', label: 'Live Telemetry', status: 'done' },
+        { id: '3', label: 'Ready', status: 'done' }
+      ];
+    }
+
     // 4. Sort trails: Level 1 (Main Agent) always first, then sub-agents
     trails.sort((a, b) => {
       if (!a.isSubagent && b.isSubagent) return -1;
@@ -185,7 +223,8 @@ export async function GET() {
       brain: activeModel,
       last_tool: lastTool,
       triggerPrompt: triggerPrompt,
-      trails: trails
+      trails: trails,
+      plan: plan
     });
     
   } catch (error: any) {

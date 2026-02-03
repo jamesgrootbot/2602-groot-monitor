@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Terminal, Cpu, Zap, Activity, Box, Sparkles, RefreshCcw, ChevronRight, ChevronDown, User, Bot, HelpCircle } from 'lucide-react';
+import { TaskProgress, TaskStep } from '@/components/task-progress';
 
 interface Thought {
   text: string;
@@ -24,6 +25,7 @@ interface Status {
   last_tool: string;
   triggerPrompt?: string;
   trails: Trail[];
+  plan?: TaskStep[];
   error?: string;
 }
 
@@ -32,7 +34,7 @@ export default function Home() {
   const [mounted, setMounted] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
-
+  
   useEffect(() => {
     setMounted(true);
     const fetchStatus = async () => {
@@ -139,6 +141,9 @@ export default function Home() {
               </p>
             </div>
           )}
+
+          {/* Active Agent Plan */}
+          <TaskProgress tasks={data?.plan || []} title="Current Agent Plan" />
 
           <div className="glass-card rounded-3xl min-h-[600px] flex flex-col overflow-hidden">
             <div className="p-6 border-b border-border/50 flex items-center justify-between bg-muted/10">
