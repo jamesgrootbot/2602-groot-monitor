@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { Terminal, Cpu, Zap, Activity, Box, Sparkles, RefreshCcw, ChevronRight, ChevronDown, User, Bot, HelpCircle } from 'lucide-react';
 import { TaskProgress, TaskStep } from '@/components/task-progress';
+import { useGateway } from '@/hooks/use-gateway';
 
 interface Thought {
   text: string;
@@ -34,7 +35,61 @@ export default function Home() {
   const [mounted, setMounted] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
+  const [mainTask, setMainTask] = useState<string>('Initializing...');
   
+  const { status: gatewayStatus, lastEvent } = useGateway('ws://localhost:18789', 'd1db9d8d6f657ae519c868028e0d39936d2d32c2fa5421b1');
+
+  // Handle Real-time Gateway Events (Zero Effort listening)
+  useEffect(() => {
+    if (!lastEvent) return;
+
+    if (lastEvent.event === 'agent.thought' || lastEvent.event === 'agent.call') {
+      const payload = lastEvent.payload;
+      
+      // Update Main Task based on most recent thought
+      if (payload.agentId === 'main' && payload.content) {
+        const lines = payload.content.split('\n');
+        const firstLine = lines.find((l: string) => l.trim().startsWith('**')) || payload.content.slice(0, 50);
+        setMainTask(firstLine.replace(/\*\*/g, ''));
+      }
+
+      setData(prev => {
+        if (!prev) return prev;
+        
+        const trails = [...prev.trails];
+        let trail = trails.find(t => t.id === payload.sessionId);
+        
+        if (!trail) {
+          trail = {
+            id: payload.sessionId,
+            agentId: payload.agentId || 'unknown',
+            model: 'dynamic',
+            updatedAt: Date.now(),
+            isSubagent: payload.agentId !== 'main',
+            isCompleted: false,
+            thoughts: []
+          };
+          trails.push(trail);
+        }
+
+        const thoughtText = payload.content || payload.tool || 'working...';
+        trail.thoughts = [{ text: thoughtText, ts: Date.now() }, ...trail.thoughts].slice(0, 15);
+        trail.updatedAt = Date.now();
+        trail.isCompleted = false;
+
+        return { ...prev, trails, status: 'working', last_tool: payload.tool || prev.last_tool };
+      });
+    }
+
+    if (lastEvent.event === 'agent.response') {
+      setData(prev => {
+        if (!prev) return prev;
+        const trails = prev.trails.map(t => t.id === lastEvent.payload.sessionId ? { ...t, isCompleted: true } : t);
+        return { ...prev, trails, status: trails.some(t => !t.isCompleted) ? 'working' : 'idle' };
+      });
+    }
+  }, [lastEvent]);
+
   useEffect(() => {
     setMounted(true);
     const fetchStatus = async () => {
@@ -51,7 +106,8 @@ export default function Home() {
     };
 
     fetchStatus();
-    const interval = setInterval(fetchStatus, 1000);
+    // Background sync every 10s instead of 1s (passive)
+    const interval = setInterval(fetchStatus, 10000); 
     return () => clearInterval(interval);
   }, []);
 
@@ -61,18 +117,18 @@ export default function Home() {
 
   if (!mounted) return null;
 
-  const isWorking = data?.status === 'working';
+  const isWorking = data?.status === 'working' || gatewayStatus === 'connecting';
 
   return (
     <main className="min-h-screen bg-background text-foreground p-4 lg:p-10 font-mono transition-colors duration-300">
       
-      {/* Soft Connection Badge */}
-      {error && (
-        <div className="fixed top-4 right-4 z-50 bg-destructive/10 text-destructive border border-destructive/20 px-3 py-1 rounded-full text-[8px] font-bold uppercase flex items-center gap-2 backdrop-blur-md">
-          <RefreshCcw className="animate-spin" size={10} />
-          Link Unstable: {error}
-        </div>
-      )}
+      {/* Real-time Gateway Badge */}
+      <div className={`fixed top-4 right-4 z-50 px-3 py-1 rounded-full text-[8px] font-bold uppercase flex items-center gap-2 backdrop-blur-md border ${
+        gatewayStatus === 'connected' ? 'bg-green-500/10 text-green-500 border-green-500/20' : 'bg-amber-500/10 text-amber-500 border-amber-500/20'
+      }`}>
+        <div className={`w-1.5 h-1.5 rounded-full ${gatewayStatus === 'connected' ? 'bg-green-500' : 'bg-amber-500 animate-pulse'}`} />
+        Live Node: {gatewayStatus === 'connected' ? 'Groot' : 'Reconnecting...'}
+      </div>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
         
@@ -80,8 +136,8 @@ export default function Home() {
         <div className="lg:col-span-4 space-y-6">
           <div className="glass-card p-8 rounded-3xl space-y-8">
             <div>
-              <h1 className="text-3xl font-black tracking-tighter">GROOT <span className="text-primary">MONITOR</span></h1>
-              <p className="text-[9px] text-muted-foreground tracking-[0.5em] uppercase mt-2">Telemetry Engine v2.2</p>
+              <h1 className="text-3xl font-black tracking-tighter text-primary">GROOT <span className="text-foreground">MONITOR</span></h1>
+              <p className="text-[9px] text-muted-foreground tracking-[0.5em] uppercase mt-2">Telemetry Engine v3.0 (Live)</p>
             </div>
 
             <div className="space-y-3">
@@ -143,7 +199,16 @@ export default function Home() {
           )}
 
           {/* Active Agent Plan */}
-          <TaskProgress tasks={data?.plan || []} title="Current Agent Plan" />
+          <div className="space-y-4">
+            <div className="glass-card p-6 rounded-3xl border border-primary/20 bg-primary/5">
+              <div className="flex items-center gap-3 mb-2">
+                <Sparkles size={14} className="text-primary animate-pulse" />
+                <span className="text-[10px] font-black uppercase tracking-[0.3em] text-primary">Main Agent Task</span>
+              </div>
+              <p className="text-lg font-bold tracking-tight text-foreground">{mainTask}</p>
+            </div>
+            <TaskProgress tasks={data?.plan || []} title="Project Plan" />
+          </div>
 
           <div className="glass-card rounded-3xl min-h-[600px] flex flex-col overflow-hidden">
             <div className="p-6 border-b border-border/50 flex items-center justify-between bg-muted/10">
@@ -156,7 +221,7 @@ export default function Home() {
             <div className="p-6 space-y-4 flex-1 overflow-y-auto max-h-[800px]">
               {!data && (
                 <div className="flex items-center justify-center h-full text-muted-foreground text-[10px] uppercase tracking-widest animate-pulse">
-                  Calibrating...
+                  Listening to Gateway...
                 </div>
               )}
               
@@ -205,7 +270,7 @@ export default function Home() {
                     {/* Thoughts List */}
                     {!isCollapsed && (
                       <div className="px-4 pb-4 space-y-3 border-t border-border/20 pt-4">
-                        {[...trail.thoughts].reverse().map((thought, i) => (
+                        {trail.thoughts.map((thought, i) => (
                           <div key={i} className="flex gap-3">
                             <div className={`w-1 h-1 rounded-full mt-1.5 shrink-0 ${i === 0 && !trail.isCompleted ? 'bg-primary animate-ping' : 'bg-muted-foreground/30'}`} />
                             <p className={`text-[11px] leading-relaxed ${i === 0 && !trail.isCompleted ? 'text-foreground font-semibold' : 'text-muted-foreground'}`}>

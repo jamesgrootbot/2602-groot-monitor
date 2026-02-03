@@ -4157,3 +4157,4378 @@ Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'proje
   path: 'projects'
 }
  GET /api/status 200 in 1770ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1758ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1724ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1809ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1762ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1790ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1743ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1788ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1775ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1728ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1770ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1761ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1800ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1787ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1782ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1748ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1741ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1772ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1920ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1802ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1863ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1876ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1824ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1779ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1850ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1939ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1749ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1819ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1810ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1859ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1807ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1821ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1785ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1755ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1794ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1808ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1806ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1792ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1822ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1796ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1788ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1817ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1831ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1735ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1850ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1838ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1822ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1792ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1870ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1778ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1840ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1857ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1742ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1811ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1790ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1803ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1786ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1791ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1787ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1752ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1805ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1827ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1813ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1812ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1811ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1773ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1774ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1814ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1767ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1805ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1807ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1797ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1794ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1790ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1770ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1832ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1802ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1741ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1839ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1789ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1771ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1754ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1756ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1838ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1750ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1794ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1749ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1767ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1763ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1759ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1768ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1719ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1764ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1751ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1786ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1759ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1779ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1723ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1715ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1776ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1755ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1779ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1753ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1806ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1782ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1718ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1800ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1790ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1797ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1798ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1810ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1748ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1777ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1796ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1816ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1805ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1777ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1770ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1749ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1729ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1811ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1775ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1805ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1763ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1805ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1768ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1823ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1838ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1733ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1796ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1756ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1795ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1771ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1840ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1806ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1737ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1792ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1769ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1789ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1768ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1795ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1780ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1760ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1730ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1787ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1774ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1792ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1792ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1864ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1841ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1770ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1811ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1778ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1791ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1791ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1784ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1800ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1802ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1852ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1739ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1831ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1766ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1791ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1775ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1807ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1779ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1732ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1782ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1774ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1791ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1773ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1812ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1789ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1819ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1769ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1724ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1805ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1788ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1774ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1795ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1785ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1712ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1803ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1788ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1815ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1794ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1860ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1867ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1820ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1824ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1751ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1832ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1796ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1820ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1861ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1852ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1862ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1880ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1834ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1852ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1780ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1801ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1829ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1817ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1794ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1818ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1800ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1823ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1752ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1828ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1813ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1797ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1773ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1785ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1780ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1727ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1778ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1781ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1831ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1881ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1797ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1785ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1807ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1781ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1805ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1847ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1800ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1794ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1817ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1785ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1804ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1792ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1747ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1828ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1804ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1821ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1778ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1810ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1774ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1763ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1801ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1764ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1807ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1793ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1847ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1777ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1788ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1747ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1723ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1783ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1771ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1765ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1772ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1773ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1747ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1717ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1796ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1748ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1801ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1780ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1792ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1757ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1715ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1776ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1779ms
+ ✓ Compiled in 290ms (656 modules)
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1823ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1799ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1801ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1766ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1707ms
+ GET / 200 in 43ms
+ GET /api/status 200 in 950ms
+ GET /api/status 200 in 352ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1874ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1727ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1711ms
+ ✓ Compiled in 84ms (656 modules)
+ ✓ Compiled in 0ms (337 modules)
+ ✓ Compiled in 0ms (337 modules)
+ ✓ Compiled in 0ms (337 modules)
+ GET / 200 in 115ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1800ms
+ ✓ Compiled in 81ms (656 modules)
+ GET / 200 in 12ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1705ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1692ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1759ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1756ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1755ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1742ms
+ GET / 200 in 20ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1680ms
+Plan Extraction Failed: Error: ENOENT: no such file or directory, scandir 'projects'
+    at fs (app/api/status/route.ts:177:26)
+  175 |     let plan: any[] = [];
+  176 |     try {
+> 177 |       const projectDirs = fs.readdirSync('projects').filter(d => d !== '0000-archived' && d !== '0000-TEMPLATE');
+      |                          ^
+  178 |       for (const dir of projectDirs) {
+  179 |         const readmePath = path.join('projects', dir, 'README.md');
+  180 |         if (fs.existsSync(readmePath)) { {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'projects'
+}
+ GET /api/status 200 in 1747ms
